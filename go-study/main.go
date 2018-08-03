@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"math"
-	"yingmu.com/go-study/constants"
-	"yingmu.com/go-study/functions"
+	"github.com/xinxiamu/gStudy/go-study/constants"
+	"github.com/xinxiamu/gStudy/go-study/functions"
 )
 
 var i, j int = 1, -2
