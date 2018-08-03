@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"yingmu.com/go-study/functions"
+	"github.com/xinxiamu/gStudy/go-study/functions"
 )
 
 func main() {
