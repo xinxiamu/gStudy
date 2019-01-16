@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"math"
 	"github.com/xinxiamu/gStudy/go-study/constants"
 	"github.com/xinxiamu/gStudy/go-study/functions"
+	"math"
 )
 
-var i, j int = 1, -2
+var i, j = 1, -2
 
 func main() {
 	fmt.Println("------------- 变量声明-begin ---------")
@@ -24,7 +24,7 @@ func main() {
 	fmt.Println("------------- 变量声明-end ---------")
 
 	fmt.Println("------ 类型转换-begin --------")
-	var q float64 = math.Sqrt(float64(i*j + j*j))
+	var q = math.Sqrt(float64(i*j + j*j))
 	g := uint(q)
 	fmt.Println(q, g, uint(j))
 	fmt.Println("------ 类型转换-end --------")

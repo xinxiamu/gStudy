@@ -31,11 +31,11 @@ func main() {
 	}
 	//	jpeg.Encode(file1, img, &jpeg.Options{5}) //编码，但是将图像质量从100改成5
 	//图片缩放
-	resized, err := carve.ReduceHeight(img, 80)
+	newSize, err := carve.ReduceHeight(img, 80)
 	if err != nil {
 		log.Fatal(err)
 	}
-	img1, err1 := carve.ReduceWidth(resized, 80)
+	img1, err1 := carve.ReduceWidth(newSize, 80)
 	if err1 != nil {
 		log.Fatal(err1)
 	}
